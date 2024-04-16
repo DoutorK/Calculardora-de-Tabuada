@@ -6,6 +6,14 @@
     <link href="https://fonts.cdnfonts.com/css/maria-2" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PWA Workshop">
+    <meta name="apple-mobile-web-app-title" content="PWA Workshop">
+    <meta name="msapplication-starturl" content="/index.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 </head>
 <body>
     <main>
@@ -29,7 +37,7 @@
                 <button class="operation-btn" onclick="handleOperationClick('*')">*</button>
                 <button class="operation-btn" onclick="handleOperationClick('/')">/</button>
             </div>
-            <button onclick="calculateTabuada()">Calcular</button>
+            <button onclick="calculateTabuada()">=</button>
             <div id="drk_tabuadaResult"></div>
         </div>
     </main>
