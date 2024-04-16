@@ -1,5 +1,5 @@
 {
-    "short_name": "Calculadora",
+    "short_name": "Tabuada",
     "name": "Calculadora",
     "icons": [
         {
@@ -18,4 +18,3 @@
     "display": "fullscreen",
     "scope": "/",
     "theme_color": "#410CD9"
-}
