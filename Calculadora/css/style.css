@@ -1,0 +1,47 @@
+body {
+    font-family: "Maria", sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-color: #022429;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+main > button{
+    width: 426px;
+    text-align: center;
+}
+
+.drk_numeros{
+    width: 426px;
+    text-align: center;
+}
+
+.drk_calculator {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #f1f5f6;
+    color: #022429;
+}
+
+#drk_tabuadaResult {
+    margin-top: 20px;
+    font-weight: bold;
+}
