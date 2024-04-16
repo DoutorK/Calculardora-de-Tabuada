@@ -42,3 +42,14 @@ function calculateTabuada () {
         tabuadaResult.innerHTML += `<p>${i} ${drk_selectedOperation} ${drk_selectedNumber} = ${result}</p>`;
     }
 }
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('/sw.js')
+      .then(serviceWorker => {
+        console.log('Service Worker registered: ' + serviceWorker);
+      })
+      .catch(error => {
+        console.log('Error registering the Service Worker: ' + error);
+      });
+  }
